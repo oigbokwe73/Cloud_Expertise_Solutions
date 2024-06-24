@@ -1,3 +1,76 @@
+sequenceDiagram
+    participant User
+    participant AssessmentTeam as Assessment Team
+    participant AzureSetupTeam as Azure Setup Team
+    participant DataInventoryTeam as Data Inventory Team
+    participant MigrationTeam as Migration Team
+    participant TestingTeam as Testing Team
+    participant OptimizationTeam as Optimization Team
+    participant MonitoringTeam as Monitoring Team
+    participant TrainingTeam as Training Team
+    participant SupportTeam as Support Team
+
+    User->>AssessmentTeam: Request Cloud Migration Assessment
+    AssessmentTeam->>User: Define Goals and Objectives
+    AssessmentTeam->>User: Conduct Infrastructure and Application Assessment
+    AssessmentTeam->>User: Deliver Assessment Report and Migration Plan
+
+    User->>AzureSetupTeam: Initiate Azure Environment Setup
+    AzureSetupTeam->>User: Configure Subscriptions and Resource Groups
+    AzureSetupTeam->>User: Set Up Virtual Networks and Security Groups
+    AzureSetupTeam->>User: Deploy Necessary Azure Services
+
+    User->>DataInventoryTeam: Start Data and Application Inventory
+    DataInventoryTeam->>User: Identify and Classify Data Sources
+    DataInventoryTeam->>User: Map Application Dependencies
+    DataInventoryTeam->>User: Document Inventory Findings
+
+    User->>MigrationTeam: Plan Migration Strategies
+    MigrationTeam->>User: Define Migration Approach (Lift-and-Shift, Re-platform, etc.)
+    MigrationTeam->>User: Develop Migration Schedule
+
+    User->>MigrationTeam: Execute Data Migration
+    MigrationTeam->>User: Perform Initial Data Load
+    MigrationTeam->>User: Implement Incremental Data Loads
+    MigrationTeam->>User: Validate Data Consistency
+
+    User->>MigrationTeam: Execute Application Migration
+    MigrationTeam->>User: Migrate Applications (Lift-and-Shift, Refactor, etc.)
+    MigrationTeam->>User: Ensure Application Functionality
+
+    User->>TestingTeam: Conduct Testing and Validation
+    TestingTeam->>User: Perform Functional Testing
+    TestingTeam->>User: Conduct Performance Testing
+    TestingTeam->>User: Execute Integration and Security Testing
+    TestingTeam->>User: Validate Data and Applications
+
+    User->>OptimizationTeam: Optimize and Manage Costs
+    OptimizationTeam->>User: Right-Size Resources
+    OptimizationTeam->>User: Implement Cost-Saving Measures
+    OptimizationTeam->>User: Monitor and Adjust Costs
+
+    User->>MonitoringTeam: Set Up Monitoring and Management
+    MonitoringTeam->>User: Configure Monitoring Tools and Dashboards
+    MonitoringTeam->>User: Implement Alerts and Automated Remediation
+    MonitoringTeam->>User: Continuous Performance and Security Monitoring
+
+    User->>TrainingTeam: Provide Training and Documentation
+    TrainingTeam->>User: Conduct Role-Specific Training Sessions
+    TrainingTeam->>User: Develop and Distribute User Manuals and Guides
+    TrainingTeam->>User: Set Up Ongoing Training Programs
+
+    User->>SupportTeam: Establish Post-Migration Support
+    SupportTeam->>User: Set Up Support Infrastructure and Help Desk
+    SupportTeam->>User: Implement Incident Management Process
+    SupportTeam->>User: Provide Ongoing Support and Maintenance
+
+    SupportTeam->>User: Conduct Regular Reviews and Feedback Sessions
+    User->>SupportTeam: Provide Feedback and Improvement Suggestions
+    SupportTeam->>User: Implement Improvements and Updates
+
+
+
+
 ### Assessment and Planning
 
 1. **Evaluate Current Infrastructure**:

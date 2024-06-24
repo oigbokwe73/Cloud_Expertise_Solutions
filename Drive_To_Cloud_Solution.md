@@ -1,4 +1,6 @@
 ![image](https://github.com/oigbokwe73/Cloud_Expertise_Solutions/assets/15838780/eb931c9b-1810-4c5d-b161-8e7fbc38efb1)
+![image](https://github.com/oigbokwe73/Cloud_Expertise_Solutions/assets/15838780/c810ad91-8fe6-4772-b9ee-fc22d677d026)
+
 
 ### Assessment and Planning
 

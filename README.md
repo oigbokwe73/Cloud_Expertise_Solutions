@@ -45,7 +45,6 @@
     - **Migration Tools**: Identify and select the right tools for the migration, such as Azure Migrate, Azure Site Recovery, or third-party tools.
     - **Automation Tools**: Consider tools for automating parts of the migration process to reduce manual effort and minimize errors.
 
-Absolutely! Here's an expanded view of the "Data and Application Inventory" phase for a Drive to Azure Cloud solution:
 
 ### Data and Application Inventory
 
